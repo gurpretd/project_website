@@ -1,0 +1,201 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#mainbody{
+	width:100%;
+	height:1000px;
+	background-color:#000000;
+	
+}
+#wrapper{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:1000px;
+	background-color:#ffffff;
+}
+#header{
+	width:100%;
+	height:200px;
+	background-color:#FFFFFF;
+}
+.logo{
+	width:20%;
+	height:100%
+	background-color:#e6e6e6;
+	float:left;
+	padding-top:10px;
+}
+.menu{
+	height:70px;
+	width:80%;
+	float:left;
+	
+}
+ul li{
+	list-style:none;
+	float:left;
+	width:175px;
+	height:35px;
+	background-color:#b3c6ff;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	margin-left:2px;
+	margin-top:10px;
+	line-height:35px;
+	border:1px solid white;
+	border-radius:20px;
+	position:relative;
+	text-decoration:none;
+	border:2px solid #0033CC;
+	}
+}
+ul li a{
+	text-align:center;
+	text-decoration:none;
+	color:#FFFFFF;
+	display:block;
+	
+}
+ul li a:hover{
+	color:#000066;
+	background-color:#CCCCCC;
+	border-radius:10px;
+	font-weight:bolder;
+	text-decoration:none;
+}
+ul ul{
+	position:absolute;
+	display:none;
+}
+ul li:hover>ul{
+	display:block;
+}
+
+#centre{
+	width:100%;	
+	background-color:#ffffff;
+	float:left;
+}
+#tophalf{
+	width:100%;
+	height:300px;
+	background-color:#0000FF;
+	float:left;
+}
+.image{
+	background-color:#b3d9ff;
+	float:left;
+	border:2px solid blue;
+	width="70%"
+}
+.image:hover {
+    transform: scale(1.5);
+	margin-left:10%;
+}
+.moving{
+	width:30%;
+	height:200px;
+	float:left;
+	margin-left:4%;
+}
+
+#centreHalf{
+	width:100%;
+	height:300px;
+	float:left;
+}
+.members{
+	width:30%;
+	height:300px;
+	float:left;
+	border:#666666;
+}
+.slideShow{
+	width:30%;
+	height:200px;
+	float:left;
+	background-color:#99e6e6;
+	margin-top:25px;
+	
+}
+.youtubeVideo{
+	width:40%;
+	height:200px;
+	float:left;
+	background-color:#0066cc;
+	margin-top:25px;
+}
+#bottomHalf{
+	width:100%;
+	float:left;
+	height:100px;
+}
+.photoGallery{
+	width:30%;
+	height:100px;
+	float:left;
+	
+}
+.galleryLogo{
+	height:100px;
+	width:20%;
+	float:left;
+	}
+.galleryText{
+	height:100px;
+	width:80%;
+	font-size:14px;
+	float:left;
+}
+.news{
+	width:50%;
+	height:100px;
+	float:left;
+	background-color:#FFFFFF;
+}
+.heading{
+	height:30px;
+	width:22%;
+	font:bold;
+	background-color:#CCCCCC;
+	margin-left:20px;
+	line-height:30px;
+	border-radius:10px;
+}
+.news&events{
+	height:70px;
+	width:"100%";
+	
+}
+#footer{
+	width:100%;
+	height:100px;
+	background-color:#FFFFFF;
+	float:left;
+	
+}
+.leftLink{
+	width:20%;
+	height:100px;
+	float:left;
+	line-height:10px;
+	
+	
+}
+.rightLink{
+	width:20%;
+	height:100px;
+	float:left;
+
+}
+.logo2{
+	width:20%;
+	height:100px;
+	float:left;
+
+}
+
+
