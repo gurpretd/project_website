@@ -2,6 +2,11 @@
 <head>
 <title>project</title>
 <link rel="stylesheet" type=text/css href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
 </head>
 <body>
 <div id="mainbody">
@@ -18,7 +23,7 @@
 						<li><a href="Students.html" target="page">Students</a></li>
 						<li><a href="History.html" target="page">INDEE History</a></li>
 						<li><a href="Milestones.html" target="page">INDEE Milestones</a></li>
-						<li><a href="Why.html" target="page">Approach & Hypothesis</a></li>
+						<li><a href="Why.html" target="page">Approach&Hypothesis</a></li>
 					</ul>
 					</li>
 				
@@ -51,45 +56,74 @@
 		
 			<div id="topHalf">
 				<div class="image">
-				<img src="image.png" height="286px" width="99%" style="margin:2px;" alt="image">
+							
+				<img class="mySlides" src="IW/IW_2.jpg">
+  				<img class="mySlides" src="IW/IW_1.jpg">
+				<img class="mySlides" src="IW/IW_3.jpg">
+				<img class="mySlides" src="IW/IW_4.jpg">
+				<img class="mySlides" src="IW/IW_5.jpg">
+				 				
 				</div>
+				
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+    	var i;
+    	var x = document.getElementsByClassName("mySlides");
+    	for (i = 0; i < x.length; i++) {
+       		x[i].style.display = "none";  
+    	}
+    	myIndex++;
+    	if (myIndex > x.length) {myIndex = 1}    
+    	x[myIndex-1].style.display = "block";  
+    	setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+
+				
+				
 				<div class="moving">
-				<marquee behavior="slide" scrolldelay="2" direction="down"  onMouseOver="stop()" onMouseOut="start()" loop="1">
-				<object width="100%" height="300px" data="International Workshop Brochure.pdf"></object></marquee>
+					<div class="heading1">
+					CO<sub>2</sub> Facility at IIT Madras
+					</div>
+					<div class="setUp">
+						<img src="image.png" style="width:80%; margin:5% 10% 3% 10%; border:#0000FF;"  alt="setUp">
+					</div>
 				</div>			
 			</div>
 		<div id="centre">
-			<div id="centreHalf">
+			<div id="centreHalf" >
 			
-				<div class="members"><iframe name="page" src="TeamMembers.html" height="100%" width="100%" frameborder="0"></iframe></div>
-				<div class="slideShow">
-				slideshow
+				<div class="members">
+				<iframe name="page" src="TeamMembers.html"></iframe>
 				</div>
+			<div id="centreRight">	
 				<div class="youtubeVideo">
-				youtube
-				</div>
-			</div>
-			<div id="bottomHalf">
-				<div class="photoGallery">
+				<iframe width="100%" height="200px" src="https://www.youtube.com/embed/SkSkKKlcVJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div><br>
+				
 				<div class="galleryLogo">
 				<img src="gallery.png" style="height:100px">
 				</div>
 				<div class="galleryText">
-				<br><br>
+				<br>
 				<h1>Gallery</h1>
 				</div>
+				<div id="news">
+				<div class="heading">
+				NEWS & EVENTS
 				</div>
-				<div class="news">
-					<div class="heading">
-					NEWS & EVENTS
-					</div>
-					<div class="news&events">
+				<div class="news&events">
 					newssssssssssss
-					</div>
 				</div>
+				</div>
+				
 			</div>
+			
 		</div>
-		
+	</div>	
 		<div id="footer">
 			<div class="leftLink">
 			<br><br>
@@ -106,9 +140,9 @@
 				<img src="logo.png" alt="logo2" height="100">
 			</div>
 			<br>
-			<br>
-			&copy;INDEE India. All Rights Reserved<br>
-			Designed by: Jasjit
+			<br>			
+			<h6>&copy;INDEE India. All Rights Reserved<br>
+			Designed by: Jasjit</h6>
 			
 		</div>
 	</div>

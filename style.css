@@ -6,7 +6,6 @@
 	width:100%;
 	height:1000px;
 	background-color:#000000;
-	
 }
 #wrapper{
 	width:80%;
@@ -21,11 +20,11 @@
 	background-color:#FFFFFF;
 }
 .logo{
-	width:20%;
-	height:100%
+	width:16%;
+	height:80%
 	background-color:#e6e6e6;
 	float:left;
-	padding-top:10px;
+	margin:2%;
 }
 .menu{
 	height:70px;
@@ -82,104 +81,104 @@ ul li:hover>ul{
 #tophalf{
 	width:100%;
 	height:300px;
-	background-color:#0000FF;
+	background-color:#8CC6FF;
 	float:left;
+}
+.mySlides{
+	height:290px;
+	width:100%;
+	margin:2px;
 }
 .image{
 	background-color:#b3d9ff;
 	float:left;
 	border:2px solid blue;
-	width="70%"
+	width:60%;
 }
-.image:hover {
-    transform: scale(1.5);
-	margin-left:10%;
-}
+
 .moving{
-	width:30%;
-	height:200px;
+	width:40%;
+	height:300px;
 	float:left;
-	margin-left:4%;
+	background-color:#b3c6ff;
 }
+.heading1{
+	width:60%;
+	height:50px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	margin-left:25%;
+	border:#000066;
+	line-height:70px;
+}
+.setUP:hover{
+
+	transform:scale(1.5);
+}
+
 
 #centreHalf{
 	width:100%;
-	height:300px;
+	height:400px;
 	float:left;
 }
 .members{
-	width:30%;
-	height:300px;
+	width:60%;
+	height:400px;
 	float:left;
 	border:#666666;
 }
-.slideShow{
-	width:30%;
-	height:200px;
-	float:left;
-	background-color:#99e6e6;
-	margin-top:25px;
-	
-}
-.youtubeVideo{
+#centreRight{
 	width:40%;
+	height:400px;
+	float:left;
+}
+
+.youtubeVideo{
+	width:100%;
 	height:200px;
 	float:left;
 	background-color:#0066cc;
 	margin-top:25px;
 }
-#bottomHalf{
-	width:100%;
-	float:left;
-	height:100px;
-}
-.photoGallery{
-	width:30%;
-	height:100px;
-	float:left;
-	
-}
+
 .galleryLogo{
 	height:100px;
-	width:20%;
+	width:50%;
 	float:left;
-	}
+}
 .galleryText{
 	height:100px;
-	width:80%;
+	width:50%;
 	font-size:14px;
 	float:left;
 }
-.news{
-	width:50%;
-	height:100px;
-	float:left;
-	background-color:#FFFFFF;
-}
+
 .heading{
 	height:30px;
-	width:22%;
+	width:100%;
 	font:bold;
 	background-color:#CCCCCC;
-	margin-left:20px;
 	line-height:30px;
 	border-radius:10px;
+	float:left;
 }
+
 .news&events{
 	height:70px;
-	width:"100%";
-	
+	width:100%;
+	float:left;
 }
 #footer{
 	width:100%;
-	height:100px;
+	height:85px;
 	background-color:#FFFFFF;
 	float:left;
 	
 }
 .leftLink{
 	width:20%;
-	height:100px;
+	height:85px;
 	float:left;
 	line-height:10px;
 	
@@ -187,13 +186,13 @@ ul li:hover>ul{
 }
 .rightLink{
 	width:20%;
-	height:100px;
+	height:85px;
 	float:left;
 
 }
 .logo2{
 	width:20%;
-	height:100px;
+	height:85px;
 	float:left;
 
 }
