@@ -20,8 +20,8 @@
 	background-color:#FFFFFF;
 }
 .logo{
-	width:16%;
-	height:80%
+	width:12%;
+	height:60%
 	background-color:#e6e6e6;
 	float:left;
 	margin:2%;
@@ -127,6 +127,25 @@ ul li:hover>ul{
 	height:400px;
 	float:left;
 	border:#666666;
+	
+}
+#IndeeTeam{
+	width:100%;
+	height:400px;
+}
+#teamPic{
+	width:30%;
+	height:120px;
+}
+#teamName{
+	width:70%;
+	height:120px;
+}
+teamName{
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+	width:300px;
+
 }
 #centreRight{
 	width:40%;
@@ -180,7 +199,7 @@ ul li:hover>ul{
 	width:20%;
 	height:85px;
 	float:left;
-	line-height:10px;
+	line-height:20px;
 	
 	
 }
@@ -188,6 +207,7 @@ ul li:hover>ul{
 	width:20%;
 	height:85px;
 	float:left;
+	line-height:20px;
 
 }
 .logo2{
