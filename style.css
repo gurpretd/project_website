@@ -30,14 +30,14 @@
 }
 .menu{
 	height:100%;
-	width:88%;
-	float:right;
+	width:85%;
+	float:left;
 	
 }
 ul li{
 	list-style:none;
 	float:left;
-	width:175px;
+	width:165px;
 	height:35px;
 	background-color:#b3c6ff;
 	text-align:center;
@@ -99,10 +99,11 @@ ul li:hover>ul{
 }
 
 .moving{
-	width:40%;
+	width:38%;
 	height:300px;
 	float:left;
 	background-color:#b3c6ff;
+	margin-left:1%;
 }
 .heading1{
 	width:60%;
@@ -181,6 +182,7 @@ teamName{
 	width:50%;
 	font-size:14px;
 	float:left;
+	margin-left:30%;
 }
 
 
