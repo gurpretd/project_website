@@ -13,8 +13,7 @@
 	<div id="wrapper">
 		<div id="header">
 			<div class="logo">
-			<a href="project.html">
-			<img src="logo.png" height:"100px" width="100%" style="border:#FFFFFF; margin:1px;" alt="logo"></a>
+			<img src="logo.png" height:"100px" width="100%" style="border:#FFFFFF; margin:1px;" alt="logo">
 			</div>
 			<div class="menu"><br>
 			<ul>
@@ -66,16 +65,14 @@
 			</div>
 			
 		</div>
-		
-			<div id="topHalf">
-				<div class="image" name="slides">
+		<hr color="#000099">
+		<div class="GIAN" name="slides">
 							
-				<img class="mySlides" src="IW/IW_2.jpg">
-  				<img class="mySlides" src="IW/IW_1.jpg">
-				<img class="mySlides" src="IW/IW_3.jpg">
-				<img class="mySlides" src="IW/IW_4.jpg">
-				<img class="mySlides" src="IW/IW_5.jpg">
-				 				
+				<img class="folderGIAN" src="folderImages/a.JPG">
+  				<img class="folderGIAN" src="folderImages/b.JPG">
+				<img class="folderGian" src="folderImages/c.JPG">
+				<img class="folderGIAN" src="folderImages/d.JPG">
+				
 				</div>
 				
 		<script>
@@ -84,60 +81,22 @@
 
 		function carousel() {
     	var i;
-    	var x = document.getElementsByClassName("mySlides");
+    	var x = document.getElementsByClassName("folderGIAN");
     	for (i = 0; i < x.length; i++) {
        		x[i].style.display = "none";  
     	}
     	myIndex++;
     	if (myIndex > x.length) {myIndex = 1}    
     	x[myIndex-1].style.display = "block";  
-    	setTimeout(carousel, 2000); // Change image every 2 seconds
+    	setTimeout(carousel, 3000); // Change image every 2 seconds
 		}
 		</script>
 
 				
 				
-				<div class="moving">
-					<div class="heading1">
-					CO<sub>2</sub> Test Facility at IIT Madras
-					</div>
-					<div class="setUp">
-						<img src="image.png" style="width:90%; margin:2.5% 2% 1.5% 5%; border:#000000;"  alt="setUp" >
-						
-					</div>
-				</div>			
-			</div>
-		<div id="centre">
-			<div id="centreHalf" >
-			
-				<div class="members">
-				<iframe name="page" src="TeamMembers.html" height="380px" width="100%"></iframe>
-				</div>
-			<div id="centreRight">	
-				<div class="youtubeVideo">
-				<iframe width="100%" height="250px" src="https://www.youtube.com/embed/SkSkKKlcVJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div><br>
-				
-				<div class="galleryLogo">
-				<a href="gallery.html"><img src="gallery.png" style="height:80px; margin-top:5%;"></a>
-				</div>
-				<div class="galleryText">
-				
-				
-				<h1>Gallery</h1>
-				</div>
-				
-			</div>
-			
-		</div>
-	</div>	
-		<div id="footer">
-						
-			<font size="-1"> &copy;INDEE. All Rights Reserved<br>
-				
-		</div>
-	</div>
 </div>
-
 </body>
 </html>
+		
+		
+		
