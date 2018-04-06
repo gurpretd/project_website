@@ -74,6 +74,43 @@ ul ul{
 ul li:hover>ul{
 	display:block;
 }
+.w3-black{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.w3-display-right{
+	position:absolute;
+	top:150px;
+	margin-right:42%;
+	margin-top:1%;
+}
+.w3-display-left{
+	position:absolute;
+	top:150px;
+	margin-left:10%;
+	margin-top:1%;
+}
+.w3-display-left2{
+	
+	position:relative;
+	margin-left:19%;
+	margin-top:20%;
+}
+.w3-display-right2{
+	position:relative;
+	margin-left:55%;
+	margin-top:20%;
+}
+
+
+.w3-button{
+	border:none;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+	cursor:pointer;
+	white-space:nowrap;
+}
 
 #centre{
 	width:100%;	
@@ -144,6 +181,7 @@ ul li:hover>ul{
 	height:120px;
 	display:inline;
 	position:relative;
+	margin-top:-90%;
 }
 #teamName{
 	height:120px;
@@ -153,6 +191,7 @@ ul li:hover>ul{
 	position:relative;
 	list-style-position:inside;
 	vertical-align:middle;
+	margin-top:-30px;
 }
 
 #studentName{
@@ -189,14 +228,13 @@ ul li:hover>ul{
 #imageFolder{
 	width:100%;
 	height:400px;
-	background-image:url(Nanomaterials-no-extraordinary-risks-known-at-present.jpg);
 	background-position:center;
 }
 .folder1{
 	width:40%;
 	height:300px;
 	margin:50px;
-	background-color:#0066FF;
+	background-color:#b3c6ff;
 	float:left;
 	border-radius:20px;
 }
@@ -204,7 +242,7 @@ ul li:hover>ul{
 	width:40%;
 	height:300px;
 	margin:50px;
-	background-color:#0066FF;
+	background-color:#b3c6ff;
 	float:left;
 	border-radius:20px;
 }

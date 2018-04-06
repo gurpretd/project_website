@@ -28,19 +28,13 @@
 					</ul>
 					</li>
 				
-				<li>Downloads
-					<ul>
-						<li><a href="downloads.html" target="page">Technical Articles</a></li>
-						
-					</ul>
-				</li>
-				
 				<li>Associates
 					<ul>
 						<li><a href="Academic.html" target="page">Universities</a></li>
 						<li><a href="Industrial.html" target="page">Industry</a></li>
 					</ul>			
 				</li>
+				
 				
 				<li>Events
 					<ul>
@@ -49,19 +43,31 @@
 					</ul>
 				</li>
 				
-				<li><a href="contactUs.html" target="page">Contact Us</a></li>
-				
 				<li>Useful Links
 					<ul>
 						<li><a href="http://www.ashraeindia.org/" target="_blank"> ASHRAE</a></li>
 						<li><a href="http://ishrae.in/ " target="_blank">ISHRAE</a></li>
 						<li><a href="http://www.dorin.com/" target="_blank">Dorin</a></li>
-						<li><a href="https://www.danfoss.com/en/" target="_blank">Denfoss</a></li>
+						<li><a href="https://www.danfoss.com/en/" target="_blank">Danfoss</a></li>
 						<li><a href="http://www.enex-ref.com/" target="_blank">Enex</a></li>
 						<li><a href="https://www.luve.it/" target="_blank">LU-VE</a></li>
 						<li><a href="http://www.iifiir.org/medias/medias.aspx?instance=EXPLOITATION&SETLANGUAGE=EN" target="_blank">IIR</a></li>
 					</ul>			
 				</li>
+				
+				<li>Downloads
+					<ul>
+						<li><a href="downloads.html" target="page">Technical Articles</a></li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				<li><a href="contactUs.html" target="page">Contact Us</a></li>
+				
+				
 			</ul>
 			</div>
 			
@@ -71,28 +77,32 @@
 							
 				<img class="folderGIAN" src="folderImages/a.JPG">
   				<img class="folderGIAN" src="folderImages/b.JPG">
-				<img class="folderGian" src="folderImages/c.JPG">
 				<img class="folderGIAN" src="folderImages/d.JPG">
 				
 				</div>
 				
-		<script>
-		var myIndex = 0;
-		carousel();
+		<button class="w3-button w3-black w3-display-left2" onClick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right2" onClick="plusDivs(1)">&#10095;</button>
+</div>				
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-		function carousel() {
-    	var i;
-    	var x = document.getElementsByClassName("folderGIAN");
-    	for (i = 0; i < x.length; i++) {
-       		x[i].style.display = "none";  
-    	}
-    	myIndex++;
-    	if (myIndex > x.length) {myIndex = 1}    
-    	x[myIndex-1].style.display = "block";  
-    	setTimeout(carousel, 3000); // Change image every 2 seconds
-		}
-		</script>
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("folderGIAN");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 				
 				
 </div>
