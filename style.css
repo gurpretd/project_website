@@ -34,6 +34,7 @@
 	float:left;
 	
 }
+
 ul li{
 	list-style:none;
 	float:left;
@@ -52,14 +53,16 @@ ul li{
 	text-decoration:none;
 	border:2px solid #0033CC;
 	overflow:visible;
-	}
+	
 }
-ul li a{
+ul li>a{
 	text-align:center;
 	text-decoration:none;
-	color:#FFFFFF;
-	display:block;
-
+	color:#000000;
+	position:relative;
+	
+	
+		
 }
 ul li a:hover{
 	color:#000066;
@@ -71,6 +74,7 @@ ul li a:hover{
 ul ul{
 	position:absolute;
 	display:none;
+	
 }
 ul li:hover>ul{
 	display:block;
@@ -192,7 +196,8 @@ ul li:hover>ul{
 	position:relative;
 	list-style-position:inside;
 	vertical-align:middle;
-	margin-top:-30px;
+	margin-top:20px;
+	width:70%;
 }
 
 #studentName{
