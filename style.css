@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding:0px;
+	box-sizing: border-box;
 }
 #mainbody{
 	width:100%;
@@ -53,16 +54,15 @@ ul li{
 	text-decoration:none;
 	border:2px solid #0033CC;
 	overflow:visible;
+	text-align:center;
 	
 }
 ul li>a{
 	text-align:center;
 	text-decoration:none;
 	color:#000000;
-	position:relative;
-	
-	
-		
+	position:relative;	
+			
 }
 ul li a:hover{
 	color:#000066;
@@ -70,6 +70,7 @@ ul li a:hover{
 	border-radius:10px;
 	font-weight:bolder;
 	text-decoration:none;
+	
 }
 ul ul{
 	position:absolute;
@@ -78,20 +79,21 @@ ul ul{
 }
 ul li:hover>ul{
 	display:block;
-}
+	}
+
 .w3-black{
 	color:#FFFFFF;
 	background-color:#000000;
 }
 .w3-display-right{
 	position:absolute;
-	top:150px;
+	top:15%;
 	margin-right:42%;
 	margin-top:1%;
 }
 .w3-display-left{
 	position:absolute;
-	top:150px;
+	top:15%;
 	margin-left:10%;
 	margin-top:1%;
 }
