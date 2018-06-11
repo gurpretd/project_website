@@ -254,6 +254,15 @@ ul li:hover>ul{
 	float:left;
 	border-radius:20px;
 }
+.folder3{
+	width:40%;
+	height:300px;
+	margin:50px;
+	background-color:#b3c6ff;
+	float:left;
+	border-radius:20px;
+}
+
 .folderGIAN{
 	height:50%;
 	width:50%;
@@ -268,6 +277,14 @@ ul li:hover>ul{
 	margin-left:15%;
 	margin-top:5%;
 }
+.folderVISITORS{
+	height:50%;
+	width:50%;
+	position:absolute;
+	margin-left:15%;
+	margin-top:5%;
+}
+
 
 
 #footer{
