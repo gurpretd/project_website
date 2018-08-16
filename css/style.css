@@ -5,69 +5,75 @@
 }
 #mainbody{
 	width:100%;
-	height:800px;
-	background-color:#000000;
-	background-image:url(abstract.jpg);
+	height:1000px;
+	background-color:#FFFFFF;
+	
 }
 #wrapper{
-	width:80%;
-	margin-left:10%;
-	margin-right:10%;
-	height:800px;
+	width:100%;
+	height:auto;
 	background-color:#ffffff;
 }
 #header{
 	width:100%;
-	height:15%;
+	height:150px;
 	background-color:#FFFFFF;
 }
 .logo{
 	width:10%;
 	height:60%;
-	background-color:#e6e6e6;
+	background-color:#FFFFFF;
 	float:left;
 	margin-top:1%;
-	margin-left:.5%;
+	margin-left:5%;
+	
 }
 .menu{
 	height:100%;
-	width:85%;
-	float:left;
+	width:80%;
+	float:right;
+	padding-left:4%;
+	padding-top:1%;
+	
 	
 }
 
 ul li{
 	list-style:none;
 	float:left;
-	width:165px;
-	height:35px;
+	width:9em;
+	height:2em;
 	background-color:#b3c6ff;
 	text-align:center;
 	font-family:"Times New Roman", Times, serif;
-	font-size:18px;
-	margin-left:2px;
-	margin-top:1px;
-	line-height:35px;
-	border:1px solid white;
+	font-size:1.25em;
+	margin-top:.5em;
+	line-height:2em;
+	z-index:999;
 	border-radius:20px;
 	position:relative;
 	text-decoration:none;
 	border:2px solid #0033CC;
-	overflow:visible;
 	text-align:center;
+	
 	
 }
 ul li>a{
 	text-align:center;
 	text-decoration:none;
 	color:#000000;
-	position:relative;	
+	position:relative;
+	font-size:100%;
+	display:block;
+	overflow:auto;
+	
+	
 			
 }
 ul li a:hover{
 	color:#000066;
 	background-color:#CCCCCC;
-	border-radius:10px;
+	border-radius:20px;
 	font-weight:bolder;
 	text-decoration:none;
 	
@@ -79,23 +85,23 @@ ul ul{
 }
 ul li:hover>ul{
 	display:block;
+	
 	}
-
 .w3-black{
 	color:#FFFFFF;
 	background-color:#000000;
 }
 .w3-display-right{
 	position:absolute;
-	top:15%;
-	margin-right:42%;
-	margin-top:1%;
+	
+	margin-right:10%;
+	margin-top:450px;
 }
 .w3-display-left{
 	position:absolute;
-	top:15%;
-	margin-left:10%;
-	margin-top:1%;
+	
+	margin-left:58%;
+	margin-top:450px;
 }
 .w3-display-left2{
 	
@@ -121,15 +127,21 @@ ul li:hover>ul{
 
 #centre{
 	width:100%;	
-	background-color:#ffffff;
+	display:block;
 	float:left;
 }
 #tophalf{
 	width:100%;
 	height:300px;
-	background-color:#8CC6FF;
+	overflow:visible;
 	float:left;
+	background-image:url(../image.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	
 }
+
+
 .mySlides{
 	height:290px;
 	width:100%;
@@ -137,46 +149,51 @@ ul li:hover>ul{
 }
 .image{
 	background-color:#b3d9ff;
-	float:left;
-	border:2px solid blue;
-	width:60%;
+	float:left;	
+	width:100%;
+	
 }
 
 .moving{
-	width:38%;
+	width:100%;
 	height:300px;
 	float:left;
-	background-color:#b3c6ff;
-	margin-left:1%;
+	
 }
-.heading1{
-	width:60%;
-	height:50px;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:18px;
-	margin-left:25%;
-	border:#000066;
-	line-height:70px;
+.setUp{
+	position:relative;
+	width:100%;
+	
+	
 }
-.setUP:hover{
-
-	transform:scale(1.5);
+.centered {
+    position: absolute;
+    bottom: 10px;
+    right: 40%;
+    background-color:#0033CC;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #centre{
-	height:25%;
+	height:380px;
 	width:100%;
 	}
 
 #centreHalf{
-	width:100%;
+	width:80%;
 	height:25%;
 	float:left;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	
 }
 .members{
 	width:60%;
 	height:100%;
 	float:left;
-	border:#666666;
+	
 	
 }
 #IndeeTeam{
@@ -207,16 +224,24 @@ ul li:hover>ul{
 	}
 #centreRight{
 	width:40%;
-	height:200px;
+	height:380px;
 	float:left;
+	
+}
+
+.image{
+	height:380px;
+	width:100%;
+	float:left;
+
 }
 
 .youtubeVideo{
 	width:100%;
-	height:120%;
+	height:100%;
 	float:left;
 	background-color:#0066cc;
-	margin-top:25px;
+
 }
 
 .galleryLogo{
@@ -267,32 +292,57 @@ ul li:hover>ul{
 	height:50%;
 	width:50%;
 	position:absolute;
-	margin-left:15%;
+	margin-left:25%;
 	margin-top:5%;
 	}
 .folderIW{
 	height:50%;
 	width:50%;
 	position:absolute;
-	margin-left:15%;
+	margin-left:25%;
 	margin-top:5%;
 }
 .folderVISITORS{
 	height:50%;
 	width:50%;
 	position:absolute;
-	margin-left:15%;
+	margin-left:25%;
 	margin-top:5%;
 }
+
+#bottom{
+	background-color:#CCCCCC;
+	width:100%;
+	height:200px;
+	margin-top:700px;
+	
+}
+#bottom-left{
+	width:30%;
+	height:200px;
+	float:left;
+	}
+#bottom-center{
+	width:20%;
+	height:200px;
+	float:left;
+}
+#bottom-right{
+	width:50%;
+	height:200px;
+	float:left;
+}
+
 
 
 
 #footer{
 	width:100%;
-	height:2%;
+	height:20px;
 	background-color:#FFFFFF;
 	float:left;
-	margin-top:200px;
+	margin-top:0%;
+	
 	
 }
 
