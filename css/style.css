@@ -59,18 +59,6 @@ ul li{
 	
 }
 
-ul li ul{
-	float:left;
-	width:6em;
-	height:.5em;
-	text-align:center;
-	line-height:1em;
-	border-radius:20px;
-	position:absolute;
-	font-size:.75em;
-	
-
-}
 
 
 ul li>a{
@@ -78,32 +66,28 @@ ul li>a{
 	text-decoration:none;
 	color:#000000;
 	position:relative;
-	font-size:100%;
-	display:block;
-	overflow:visible;
-	position:relative;
 	
 	
-			
+	
+
 }
 ul li a:hover{
 	color:#000066;
 	background-color:#CCCCCC;
 	border-radius:20px;
-	font-weight:bolder;
 	text-decoration:none;
-	overflow:hidden;
+	
+	
 }
 
 ul ul{
 	position:absolute;
 	display:none;
+	
 }
 
 ul li:hover>ul{
 	display:block;
-	
-	
 }
 	
 .w3-black{
@@ -355,7 +339,7 @@ ul li:hover>ul{
 	float:left;
 }
 .youtubeVideo{
-   width:50%;
+   width:40%;
    
 }
 .youtubeVideoText{
