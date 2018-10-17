@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>INDEE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type=text/css href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<div id="mainbody">
+	<div id="wrapper">
+		<div id="header">
+			<div class="logo">
+			<a href="index.html">
+			<img src="logo.png" height:"100px" width="100%" style="border:#FFFFFF; margin:1px;" alt="logo"></a>
+			</div>
+			<div class="menu"><br>
+			<ul>
+				<li>INDEE 
+					<ul>
+						<li><a href="TeamMembers.html" target="page" >Team Members</a></li>
+						<li><a href="Students.html" target="page">Students</a></li>
+						<li><a href="history.html" target="page">History</a></li>
+						<li><a href="milestones.html" target="page">Milestones</a></li>
+						<li><a href="Approach&Hypothesis.html" target="page">Approach</a></li>
+						<li><a href="gallery.html" target="_blank">Gallery</a></li>
+					</ul>
+			  </li>
+			  
+			  <li>Progress
+			  	<ul>
+					<li><a href="Achievements.html" target="page">Achievements</a></li>
+					<li><a href="Thesis.html" target="page">Projects</a></li>
+					<li><a href="ResearchPapers.html" target="page">Research Papers</a></li>
+				
+				</ul>  
+			  
+			  </li>
+				
+				<li>Associates
+					<ul>
+						<li><a href="Academic.html" target="page">Universities</a></li>
+						<li><a href="Industrial.html" target="page">Industry</a></li>
+					</ul>			
+				</li>
+				
+				
+				<li>Events
+					<ul>
+						<li><a href="InternationalWorkshop.html" target="page">International Workshop</a></li>
+						<li><a href="GianCourse.html" target="page">GIAN Course</a></li>
+						<li><a href="Workshop and Training Program.html" target="page">Workshop and Training program</a></li>
+					</ul>
+				</li>
+				
+				<li>Useful Links
+					<ul>
+						<li><a href="http://www.ashraeindia.org/" target="_blank"> ASHRAE</a></li>
+						<li><a href="http://ishrae.in/ " target="_blank">ISHRAE</a></li>
+						<li><a href="http://www.dorin.com/" target="_blank">Dorin</a></li>
+						<li><a href="https://www.danfoss.com/en/" target="_blank">Danfoss</a></li>
+						<li><a href="http://www.enex-ref.com/" target="_blank">Enex</a></li>
+						<li><a href="https://www.luve.it/" target="_blank">LU-VE</a></li>
+						<li><a href="http://www.iifiir.org/medias/medias.aspx?instance=EXPLOITATION&SETLANGUAGE=EN" target="_blank">IIR</a></li>
+						<li><a href="http://www.supersmart-supermarket.info/" target="_blank">Supersmart Supermarket</a></li>
+					</ul>			
+				</li>
+				
+						
+				
+				
+				
+				<li><a href="contactUs.html" target="page" style="text-decoration:none">Contact Us</a></li>
+				
+				
+			</ul>
+			</div>
+			
+		</div>
+		
+			
+		<hr color="#000099">
+		<div class="GIAN" name="slides">
+							
+				<img class="folderGIAN" src="folderImages/IMG_5955.jpg">
+  				<img class="folderGIAN" src="folderImages/IMG_5959 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_5979 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_5993 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_6024 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_6081 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_6099 copy.jpg">
+				<img class="folderGIAN" src="folderImages/IMG-20181006-WA0028.jpg">
+				<img class="folderGIAN" src="folderImages/IMG-20181006-WA0029.jpg">
+				<img class="folderGIAN" src="folderImages/IMG-20181006-WA0041.jpg">
+				<img class="folderGIAN" src="folderImages/IMG_6092 copy.jpg">
+				
+				
+				
+				
+				</div>
+				
+		<button class="w3-button w3-black w3-display-left2" onClick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right2" onClick="plusDivs(1)">&#10095;</button>
+</div>				
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("folderGIAN");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+				
+				
+</div>
+</body>
+</html>
+		
+		
+		

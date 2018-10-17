@@ -58,6 +58,21 @@ ul li{
 	
 	
 }
+
+ul li ul{
+	float:left;
+	width:6em;
+	height:.5em;
+	text-align:center;
+	line-height:1em;
+	border-radius:20px;
+	position:absolute;
+	font-size:.75em;
+	
+
+}
+
+
 ul li>a{
 	text-align:center;
 	text-decoration:none;
@@ -65,7 +80,8 @@ ul li>a{
 	position:relative;
 	font-size:100%;
 	display:block;
-	overflow:auto;
+	overflow:visible;
+	position:relative;
 	
 	
 			
@@ -76,24 +92,27 @@ ul li a:hover{
 	border-radius:20px;
 	font-weight:bolder;
 	text-decoration:none;
-	
+	overflow:hidden;
 }
+
 ul ul{
 	position:absolute;
 	display:none;
-	
 }
+
 ul li:hover>ul{
 	display:block;
 	
-	}
+	
+}
+	
 .w3-black{
 	color:#FFFFFF;
 	background-color:#000000;
 }
+
 .w3-display-right{
-	position:absolute;
-	
+	position:absolute;	
 	margin-right:10%;
 	margin-top:450px;
 }
@@ -130,6 +149,7 @@ ul li:hover>ul{
 	display:block;
 	float:left;
 }
+
 #tophalf{
 	width:100%;
 	height:300px;
@@ -236,21 +256,8 @@ ul li:hover>ul{
 
 }
 
-.youtubeVideo{
-	width:100%;
-	height:100%;
-	float:left;
-	background-color:#0066cc;
 
-}
 
-.galleryLogo{
-	height:4%;
-	width:50%;
-	float:left;
-	margin-left:5%;
-	margin-top:2%;
-}
 .galleryText{
 	height:5%;
 	width:50%;
@@ -287,6 +294,14 @@ ul li:hover>ul{
 	float:left;
 	border-radius:20px;
 }
+.folder4{
+	width:40%;
+	height:300px;
+	margin:50px;
+	background-color:#b3c6ff;
+	float:left;
+	border-radius:20px;
+}
 
 .folderGIAN{
 	height:50%;
@@ -311,28 +326,44 @@ ul li:hover>ul{
 }
 
 #bottom{
-	background-color:#CCCCCC;
+	background-color:#FFFFFF;
 	width:100%;
-	height:200px;
+	height:400px;
 	margin-top:700px;
 	
 }
 #bottom-left{
-	width:30%;
+	width:100%;
+	height:400px;
+	float:left;
+	margin-left:30%;
+	}
+#bottom1{
+	width:100%;
 	height:200px;
 	float:left;
 	}
+
 #bottom-center{
-	width:20%;
+	
 	height:200px;
 	float:left;
 }
 #bottom-right{
-	width:50%;
+	
 	height:200px;
 	float:left;
 }
+.youtubeVideo{
+   width:50%;
+   
+}
+.youtubeVideoText{
+	float:right;
+	width:20%;
+	
 
+}
 
 
 
